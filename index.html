@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Drift</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <div id="startScreen" class="screen active">
+    <div class="screen-content">
+        
+        <div class="title-wrapper">
+            
+            <div class="title-wave">🌊</div>
+            <h1 class="game-title">OCEAN<br><span>DRIFT</span></h1>
+            <div class="title-wave flip">🌊</div>
+      
+        </div>
+      <div class="turtle-hero">🐢</div>
+      <p class="subtitle">A sea turtle's fight for survival</p>
+      <div class="legend">
+        
+            <div class="legend-item"><span class="legend-icon">🛍️</span><span>Plastic Bag — Harmful, small &amp; fast</span></div>
+            <div class="legend-item"><span class="legend-icon">🕸️</span><span>Fishing Net — Harmful, large &amp; slow</span></div>
+            <div class="legend-item"><span class="legend-icon">🦈</span><span>Shark — Harmful &amp; medium speed</span></div>
+            <div class="legend-item"><span class="legend-icon">🐟</span><span>Fish — collect for +50 bonus points</span></div>
+    </div>
+      <div class="controls-hint">
+        <span>▲ ▼ Arrow Keys to move</span>
+      </div>
+      <button id="startBtn" class="btn-primary">PRESS SPACE TO DIVE IN</button>
+    </div>
+  </div>
+
+
+  <div id ="gameOverScreen" class="screen">
+    <div class="screen-content">
+        <div class="game-over-icon">💀</div>
+        <h2 class="game-over-title">GAME OVER</h2>
+        <p class="game-over-sub">The ocean took you...</p>
+        <div class="score-display">
+            <span class="score-label">Final Score:</span>
+            <span id="finalScore" class="score-value">0</span>
+        </div>
+        <div class="best-score-line">
+          BEST: <span id="bestScoreValue">0</span>
+        </div>
+        <div id="highScoreDisplay" class="high-score-display" style="display:none">
+            <span class="new-record">🏆 NEW RECORD!</span>
+        </div>
+        <button id="restartBtn" class="btn-primary">TRY AGAIN</button>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
