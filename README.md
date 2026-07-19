@@ -52,4 +52,5 @@ A browser game i (and ai) made for arcadai hackclub ysws where you play as a sea
 - Pause button
 - Better music
 - More lives
-- Fix the hitbox (sometimes hits dont reflect) 
+- Fix the hitbox (sometimes hits dont reflect)
+- Make it look less Ai'ish by adding different fonts and all
