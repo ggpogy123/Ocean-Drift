@@ -37,9 +37,9 @@ A browser game i (and ai) made for arcadai hackclub ysws where you play as a sea
 
 ## Challenges I had faced
 
-- **Flipping the turtle** - Wanted it to face left since thats the direction its moving. Tried using `ctx.scale(-1,1)` but that flips the whole coordinate system, so I made all the x coordinates negative.
-- **hitbox** - collision detection was broken for a while because i had used `+` instead of `*`.
-- **Audio** - the background music literally sounded like a microwave the first time claude made it.
+- **Flipping the turtle** - Wanted it to face left since thats the direction its moving. Tried using `ctx.scale(-1,1)` but that flipped the whole thing, so I made all the x coordinates negative.
+- **hitbox** - Collision detection was broken for a while because i had used `+` instead of `*`.
+- **Audio** - Background music lowk sounded like a microwave the first time claude made it.
 - **typo bugs** - Spent wayy too long trying to debug this when it had a simple fix. I always tend to make mistakes like this, have to be more careful while writing code.
 
 ---
