@@ -1,6 +1,6 @@
 # Ocean Drift
 
-A browser game i (and ai) made for arcadai hackclub ysws where you play as a sea turtle dodging plastic bags, fishing nets and sharks. Collect fish for bonus points. The longer you survive the faster it gets.
+A browser game i (and ai) made for arcadai hackclub ysws where you play as a sea turtle dodging plastic bags, fishing nets and sharks. Collect fish for bonus points. Also, the longer you survive the faster it gets.
 
 [Play it here](https://ggpogy123.github.io/Ocean-Drift/)
 
